@@ -2,7 +2,7 @@ export const role = ['user', 'admin', 'super_admin'];
 
 export const UserSearchableFields = [
   'role',
-  'phoneNumber',
+  'phone',
   'name',
   'email',
   'address',
@@ -11,7 +11,7 @@ export const UserSearchableFields = [
 export const UserFilterableFields = [
   'searchTerm',
   'role',
-  'phoneNumber',
+  'phone',
   'name',
   'email',
   'address',

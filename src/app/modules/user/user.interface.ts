@@ -7,7 +7,7 @@ export type IUser = {
   role: 'user' | 'admin';
   name: string;
   email: string;
-  phone: string;
+  phone?: string;
   address?: string;
   imageUrl?: string;
 };
@@ -25,6 +25,6 @@ export type UserModel = Model<IUser, Record<string, unknown>, IUserMethods>;
 export type IUserFilter = {
   searchTerm?: string;
   role?: string;
-  phoneNumber?: string;
+  phone?: string;
   address?: string;
 };
